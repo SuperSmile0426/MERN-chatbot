@@ -13,7 +13,7 @@ app.use(express.json());
 // MongoDB connection
 
 
-mongoose.connect('mongodb://localhost:27017/your-database-name')
+mongoose.connect('mongodb://localhost:27017/MERN-chat')
   .then(() => {
     console.log('Connected to MongoDB');
   })
